@@ -1,6 +1,9 @@
 [My Computer]
-My Computer = "192.168.56.1"
+My Computer = "10.212.134.61"
 
 [NI-cRIO-903x-VM-27ea44ce]
 NI-cRIO-903x-VM-27ea44ce = "192.168.56.101"
+
+[RT PXI Target]
+RT PXI Target = "10.36.60.162"
 
