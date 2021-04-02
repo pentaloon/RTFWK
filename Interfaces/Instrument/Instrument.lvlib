@@ -10,12 +10,14 @@
 		<Item Name="Self-Calibration.lvclass" Type="LVClass" URL="../Base/Self-Calibration/Self-Calibration.lvclass"/>
 		<Item Name="Self-Test.lvclass" Type="LVClass" URL="../Base/Self-Test/Self-Test.lvclass"/>
 	</Item>
+	<Item Name="Amplifier.lvclass" Type="LVClass" URL="../Amplifier/Amplifier.lvclass"/>
 	<Item Name="Analog Input.lvclass" Type="LVClass" URL="../Analog Input/Analog Input.lvclass"/>
 	<Item Name="Analog Output.lvclass" Type="LVClass" URL="../Analog Output/Analog Output.lvclass"/>
 	<Item Name="Counter IO.lvclass" Type="LVClass" URL="../Counter IO/Counter IO.lvclass"/>
 	<Item Name="Digital IO.lvclass" Type="LVClass" URL="../Digital IO/Digital IO.lvclass"/>
 	<Item Name="Digital Multimeter.lvclass" Type="LVClass" URL="../DMM/Digital Multimeter.lvclass"/>
 	<Item Name="Power Supply.lvclass" Type="LVClass" URL="../PSU/Power Supply.lvclass"/>
+	<Item Name="Programmable Resistor.lvclass" Type="LVClass" URL="../Programmable Resistor/Programmable Resistor.lvclass"/>
 	<Item Name="Reconfigurable IO.lvclass" Type="LVClass" URL="../RIO/Reconfigurable IO.lvclass"/>
 	<Item Name="Simple Analog Input.lvclass" Type="LVClass" URL="../Simple AI/Simple Analog Input.lvclass"/>
 	<Item Name="Simple Analog Output.lvclass" Type="LVClass" URL="../Simple AO/Simple Analog Output.lvclass"/>

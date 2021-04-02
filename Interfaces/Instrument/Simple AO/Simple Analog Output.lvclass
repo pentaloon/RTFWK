@@ -9,12 +9,6 @@
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Instrument.lvlib:Common.lvclass" Type="Parent" URL="../../Base/Common/Common.lvclass"/>
-		<Item Name="Instrument.lvlib:Hardware.lvclass" Type="Parent" URL="../../Base/Hardware/Hardware.lvclass"/>
-		<Item Name="Instrument.lvlib:Self-Calibration.lvclass" Type="Parent" URL="../../Base/Self-Calibration/Self-Calibration.lvclass"/>
-		<Item Name="Instrument.lvlib:Self-Test.lvclass" Type="Parent" URL="../../Base/Self-Test/Self-Test.lvclass"/>
-	</Item>
 	<Item Name="AO Update.vi" Type="VI" URL="../AO Update.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;@!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;*!=!!?!!!P%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)=5WFN='RF)%&amp;O97RP:S"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!95WFN='RF)%&amp;O97RP:S"0&gt;82Q&gt;81A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;"!=!!?!!!P%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)=5WFN='RF)%&amp;O97RP:S"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!85WFN='RF)%&amp;O97RP:S"0&gt;82Q&gt;81A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

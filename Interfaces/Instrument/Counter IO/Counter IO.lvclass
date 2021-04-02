@@ -9,10 +9,14 @@
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Instrument.lvlib:Common.lvclass" Type="Parent" URL="../../Base/Common/Common.lvclass"/>
-		<Item Name="Instrument.lvlib:Hardware.lvclass" Type="Parent" URL="../../Base/Hardware/Hardware.lvclass"/>
-		<Item Name="Instrument.lvlib:Self-Test.lvclass" Type="Parent" URL="../../Base/Self-Test/Self-Test.lvclass"/>
+	<Item Name="CTR Configure.vi" Type="VI" URL="../CTR Configure.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!F%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)31W^V&lt;H2F=C"*4SZM&gt;G.M98.T!!Z$&lt;X6O&gt;'6S)%F0)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1&amp;-'5'&amp;S97VT!!!]1(!!(A!!*2"*&lt;H.U=H6N:7ZU,GRW&lt;'FC%E.P&gt;7ZU:8)A35]O&lt;(:D&lt;'&amp;T=Q!.1W^V&lt;H2F=C"*4S"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 	<Item Name="CTR Start.vi" Type="VI" URL="../CTR Start.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%X!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!F%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)31W^V&lt;H2F=C"*4SZM&gt;G.M98.T!!Z$&lt;X6O&gt;'6S)%F0)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!]1(!!(A!!*2"*&lt;H.U=H6N:7ZU,GRW&lt;'FC%E.P&gt;7ZU:8)A35]O&lt;(:D&lt;'&amp;T=Q!.1W^V&lt;H2F=C"*4S"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>

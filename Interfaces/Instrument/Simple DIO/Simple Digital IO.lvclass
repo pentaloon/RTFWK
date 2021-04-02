@@ -9,11 +9,6 @@
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Instrument.lvlib:Common.lvclass" Type="Parent" URL="../../Base/Common/Common.lvclass"/>
-		<Item Name="Instrument.lvlib:Hardware.lvclass" Type="Parent" URL="../../Base/Hardware/Hardware.lvclass"/>
-		<Item Name="Instrument.lvlib:Self-Test.lvclass" Type="Parent" URL="../../Base/Self-Test/Self-Test.lvclass"/>
-	</Item>
 	<Item Name="DIO Update.vi" Type="VI" URL="../DIO Update.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5WFN='RF)%2J:WFU97QA35]O&lt;(:D&lt;'&amp;T=Q!!&amp;6.J&lt;8"M:3"%;7&gt;J&gt;'&amp;M)%F0)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5WFN='RF)%2J:WFU97QA35]O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;.J&lt;8"M:3"%;7&gt;J&gt;'&amp;M)%F0)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

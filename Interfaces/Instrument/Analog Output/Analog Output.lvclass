@@ -9,11 +9,14 @@
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Instrument.lvlib:Common.lvclass" Type="Parent" URL="../../Base/Common/Common.lvclass"/>
-		<Item Name="Instrument.lvlib:Hardware.lvclass" Type="Parent" URL="../../Base/Hardware/Hardware.lvclass"/>
-		<Item Name="Instrument.lvlib:Self-Calibration.lvclass" Type="Parent" URL="../../Base/Self-Calibration/Self-Calibration.lvclass"/>
-		<Item Name="Instrument.lvlib:Self-Test.lvclass" Type="Parent" URL="../../Base/Self-Test/Self-Test.lvclass"/>
+	<Item Name="AO Configure.vi" Type="VI" URL="../AO Configure.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;2!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!I%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)617ZB&lt;'^H)%^V&gt;("V&gt;#ZM&gt;G.M98.T!!!217ZB&lt;'^H)%^V&gt;("V&gt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1&amp;-'5'&amp;S97VT!!"%1(!!(A!!+""*&lt;H.U=H6N:7ZU,GRW&lt;'FC&amp;5&amp;O97RP:S"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!!%%&amp;O97RP:S"0&gt;82Q&gt;81A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!#1!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 	<Item Name="AO Start.vi" Type="VI" URL="../AO Start.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!I%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)617ZB&lt;'^H)%^V&gt;("V&gt;#ZM&gt;G.M98.T!!!217ZB&lt;'^H)%^V&gt;("V&gt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"%1(!!(A!!+""*&lt;H.U=H6N:7ZU,GRW&lt;'FC&amp;5&amp;O97RP:S"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!!%%&amp;O97RP:S"0&gt;82Q&gt;81A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#!!!!!!</Property>
