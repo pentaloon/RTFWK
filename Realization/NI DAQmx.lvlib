@@ -6,7 +6,9 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="NI Analog Input.lvclass" Type="LVClass" URL="../NI Analog Input/NI Analog Input.lvclass"/>
 	<Item Name="NI Analog Output.lvclass" Type="LVClass" URL="../NI Analog Output/NI Analog Output.lvclass"/>
-	<Item Name="NI Counter IO.lvclass" Type="LVClass" URL="../NI Counter IO/NI Counter IO.lvclass"/>
+	<Item Name="NI Counter Input.lvclass" Type="LVClass" URL="../NI Counter Input/NI Counter Input.lvclass"/>
+	<Item Name="NI Counter Output.lvclass" Type="LVClass" URL="../NI Counter Output/NI Counter Output.lvclass"/>
 	<Item Name="NI DAQmx Base.lvclass" Type="LVClass" URL="../NI DAQmx Base/NI DAQmx Base.lvclass"/>
-	<Item Name="NI Digital IO.lvclass" Type="LVClass" URL="../NI Digital IO/NI Digital IO.lvclass"/>
+	<Item Name="NI Digital Input.lvclass" Type="LVClass" URL="../NI Digital Input/NI Digital Input.lvclass"/>
+	<Item Name="NI Digital Output.lvclass" Type="LVClass" URL="../NI Digital Output/NI Digital Output.lvclass"/>
 </Library>

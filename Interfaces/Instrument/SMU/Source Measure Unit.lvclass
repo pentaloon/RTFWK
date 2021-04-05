@@ -9,7 +9,7 @@
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Item Name="SMU Fetch.vi" Type="VI" URL="../SMU Fetch.vi">
+	<Item Name="Fetch.vi" Type="VI" URL="../Fetch.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!(5UV6)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!'5UV6)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -18,7 +18,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 	</Item>
-	<Item Name="SMU Initiate.vi" Type="VI" URL="../SMU Initiate.vi">
+	<Item Name="Initiate.vi" Type="VI" URL="../Initiate.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!(5UV6)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!'5UV6)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -27,7 +27,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 	</Item>
-	<Item Name="SMU Measure.vi" Type="VI" URL="../SMU Measure.vi">
+	<Item Name="Measure.vi" Type="VI" URL="../Measure.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!(5UV6)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!'5UV6)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -36,7 +36,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 	</Item>
-	<Item Name="SMU Output Enable.vi" Type="VI" URL="../SMU Output Enable.vi">
+	<Item Name="Output Enable.vi" Type="VI" URL="../Output Enable.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!(5UV6)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!'5UV6)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -45,7 +45,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 	</Item>
-	<Item Name="SMU SW Trigger.vi" Type="VI" URL="../SMU SW Trigger.vi">
+	<Item Name="SW Trigger.vi" Type="VI" URL="../SW Trigger.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!(5UV6)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!'5UV6)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -54,7 +54,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 	</Item>
-	<Item Name="SMU Wait Event.vi" Type="VI" URL="../SMU Wait Event.vi">
+	<Item Name="Wait Event.vi" Type="VI" URL="../Wait Event.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!(5UV6)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!O%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&lt;5W^V=G.F)%VF98.V=G5A67ZJ&gt;#ZM&gt;G.M98.T!!!'5UV6)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

@@ -9,7 +9,7 @@
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Item Name="RIO Configure.vi" Type="VI" URL="../RIO Configure.vi">
+	<Item Name="Configure.vi" Type="VI" URL="../Configure.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;B!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5G6D&lt;WZG;7&gt;V=G&amp;C&lt;'5A35]O&lt;(:D&lt;'&amp;T=Q!!&amp;6*F9W^O:GFH&gt;8*B9GRF)%F0)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!R!5Q:198*B&lt;8-!!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5G6D&lt;WZG;7&gt;V=G&amp;C&lt;'5A35]O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;*F9W^O:GFH&gt;8*B9GRF)%F0)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -18,7 +18,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 	</Item>
-	<Item Name="RIO Start.vi" Type="VI" URL="../RIO Start.vi">
+	<Item Name="Start.vi" Type="VI" URL="../Start.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5G6D&lt;WZG;7&gt;V=G&amp;C&lt;'5A35]O&lt;(:D&lt;'&amp;T=Q!!&amp;6*F9W^O:GFH&gt;8*B9GRF)%F0)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5G6D&lt;WZG;7&gt;V=G&amp;C&lt;'5A35]O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;*F9W^O:GFH&gt;8*B9GRF)%F0)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -27,7 +27,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
-	<Item Name="RIO Stop.vi" Type="VI" URL="../RIO Stop.vi">
+	<Item Name="Stop.vi" Type="VI" URL="../Stop.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5G6D&lt;WZG;7&gt;V=G&amp;C&lt;'5A35]O&lt;(:D&lt;'&amp;T=Q!!&amp;6*F9W^O:GFH&gt;8*B9GRF)%F0)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5G6D&lt;WZG;7&gt;V=G&amp;C&lt;'5A35]O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;*F9W^O:GFH&gt;8*B9GRF)%F0)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -36,7 +36,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
-	<Item Name="RIO Update.vi" Type="VI" URL="../RIO Update.vi">
+	<Item Name="Update.vi" Type="VI" URL="../Update.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5G6D&lt;WZG;7&gt;V=G&amp;C&lt;'5A35]O&lt;(:D&lt;'&amp;T=Q!!&amp;6*F9W^O:GFH&gt;8*B9GRF)%F0)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%R!=!!?!!!M%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7):5G6D&lt;WZG;7&gt;V=G&amp;C&lt;'5A35]O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;*F9W^O:GFH&gt;8*B9GRF)%F0)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

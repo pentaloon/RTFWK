@@ -23,7 +23,7 @@
 		<Item Name="Instrument.lvlib:Amplifier.lvclass" Type="Parent" URL="../../../Interfaces/Instrument/Amplifier/Amplifier.lvclass"/>
 		<Item Name="Instrument.lvlib:Common.lvclass" Type="Parent" URL="../../../Interfaces/Instrument/Base/Common/Common.lvclass"/>
 		<Item Name="Instrument.lvlib:Hardware.lvclass" Type="Parent" URL="../../../Interfaces/Instrument/Base/Hardware/Hardware.lvclass"/>
-		<Item Name="Instrument.lvlib:Self-Test.lvclass" Type="Parent" URL="../../../Interfaces/Instrument/Base/Self-Test/Self-Test.lvclass"/>
+		<Item Name="Instrument.lvlib:Self-Test.lvclass" Type="Parent" URL="../../../Interfaces/Instrument/Base/SelfTest/Self-Test.lvclass"/>
 	</Item>
 	<Item Name="PI650 VoltageAmp.ctl" Type="Class Private Data" URL="PI650 VoltageAmp.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -83,13 +83,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">34079248</Property>
 	</Item>
 	<Item Name="Init.vi" Type="VI" URL="../Init.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!K$V"J9WNF=GFO:SZM&gt;GRJ9BB1349V-#"7&lt;WRU97&gt;F17VQ,GRW9WRB=X-!!"21349V-#"7&lt;WRU97&gt;F17VQ)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1&amp;-'5'&amp;S97VT!!")1(!!(A!!+A^1;7.L:8*J&lt;G=O&lt;(:M;7)95%EW.4!A6G^M&gt;'&amp;H:5&amp;N=#ZM&gt;G.M98.T!!!45%EW.4!A6G^M&gt;'&amp;H:5&amp;N=#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!+!!!!EA!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!K$V"J9WNF=GFO:SZM&gt;GRJ9BB1349V-#"7&lt;WRU97&gt;F17VQ,GRW9WRB=X-!!"21349V-#"7&lt;WRU97&gt;F17VQ)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1&amp;-'5'&amp;S97VT!!")1(!!(A!!+A^1;7.L:8*J&lt;G=O&lt;(:M;7)95%EW.4!A6G^M&gt;'&amp;H:5&amp;N=#ZM&gt;G.M98.T!!!45%EW.4!A6G^M&gt;'&amp;H:5&amp;N=#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!3!!!!EA!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">50331776</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">34079248</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268968464</Property>
 	</Item>
 	<Item Name="Reset.vi" Type="VI" URL="../Reset.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;0!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!K$V"J9WNF=GFO:SZM&gt;GRJ9BB1349V-#"7&lt;WRU97&gt;F17VQ,GRW9WRB=X-!!"21349V-#"7&lt;WRU97&gt;F17VQ)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1")1(!!(A!!+A^1;7.L:8*J&lt;G=O&lt;(:M;7)95%EW.4!A6G^M&gt;'&amp;H:5&amp;N=#ZM&gt;G.M98.T!!!45%EW.4!A6G^M&gt;'&amp;H:5&amp;N=#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>

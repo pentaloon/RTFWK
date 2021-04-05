@@ -4,24 +4,27 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Base" Type="Folder">
 		<Item Name="Common.lvclass" Type="LVClass" URL="../Base/Common/Common.lvclass"/>
 		<Item Name="Hardware.lvclass" Type="LVClass" URL="../Base/Hardware/Hardware.lvclass"/>
-		<Item Name="Self-Calibration.lvclass" Type="LVClass" URL="../Base/Self-Calibration/Self-Calibration.lvclass"/>
-		<Item Name="Self-Test.lvclass" Type="LVClass" URL="../Base/Self-Test/Self-Test.lvclass"/>
+		<Item Name="Self-Calibration.lvclass" Type="LVClass" URL="../Base/SelfCalibration/Self-Calibration.lvclass"/>
+		<Item Name="Self-Test.lvclass" Type="LVClass" URL="../Base/SelfTest/Self-Test.lvclass"/>
+		<Item Name="StateControl.lvclass" Type="LVClass" URL="../StateControl/StateControl.lvclass"/>
+		<Item Name="Timing.lvclass" Type="LVClass" URL="../Base/Timing/Timing.lvclass"/>
+		<Item Name="Trigger.lvclass" Type="LVClass" URL="../Base/Trigger/Trigger.lvclass"/>
 	</Item>
 	<Item Name="Amplifier.lvclass" Type="LVClass" URL="../Amplifier/Amplifier.lvclass"/>
-	<Item Name="Analog Input.lvclass" Type="LVClass" URL="../Analog Input/Analog Input.lvclass"/>
-	<Item Name="Analog Output.lvclass" Type="LVClass" URL="../Analog Output/Analog Output.lvclass"/>
-	<Item Name="Counter IO.lvclass" Type="LVClass" URL="../Counter IO/Counter IO.lvclass"/>
-	<Item Name="Digital IO.lvclass" Type="LVClass" URL="../Digital IO/Digital IO.lvclass"/>
+	<Item Name="Analog Input.lvclass" Type="LVClass" URL="../AnalogInput/Analog Input.lvclass"/>
+	<Item Name="Analog Output.lvclass" Type="LVClass" URL="../AnalogOutput/Analog Output.lvclass"/>
+	<Item Name="Counter Input.lvclass" Type="LVClass" URL="../CounterInput/Counter Input.lvclass"/>
+	<Item Name="Counter Output.lvclass" Type="LVClass" URL="../CounterOutput/Counter Output.lvclass"/>
+	<Item Name="Digital Input.lvclass" Type="LVClass" URL="../DigitalInput/Digital Input.lvclass"/>
+	<Item Name="Digital Output.lvclass" Type="LVClass" URL="../DigitalOutput/Digital Output.lvclass"/>
 	<Item Name="Digital Multimeter.lvclass" Type="LVClass" URL="../DMM/Digital Multimeter.lvclass"/>
 	<Item Name="Power Supply.lvclass" Type="LVClass" URL="../PSU/Power Supply.lvclass"/>
-	<Item Name="Programmable Resistor.lvclass" Type="LVClass" URL="../Programmable Resistor/Programmable Resistor.lvclass"/>
+	<Item Name="Programmable Resistor.lvclass" Type="LVClass" URL="../ProgrammableResistor/Programmable Resistor.lvclass"/>
 	<Item Name="Reconfigurable IO.lvclass" Type="LVClass" URL="../RIO/Reconfigurable IO.lvclass"/>
-	<Item Name="Simple Analog Input.lvclass" Type="LVClass" URL="../Simple AI/Simple Analog Input.lvclass"/>
-	<Item Name="Simple Analog Output.lvclass" Type="LVClass" URL="../Simple AO/Simple Analog Output.lvclass"/>
-	<Item Name="Simple Digital IO.lvclass" Type="LVClass" URL="../Simple DIO/Simple Digital IO.lvclass"/>
 	<Item Name="Source Measure Unit.lvclass" Type="LVClass" URL="../SMU/Source Measure Unit.lvclass"/>
 	<Item Name="Switching.lvclass" Type="LVClass" URL="../Switching/Switching.lvclass"/>
 </Library>
