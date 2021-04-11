@@ -1,0 +1,4 @@
+1. calling pipxi40 VIs in parallel causes VISA operation failure.
+ - more specifically, when pipxi40 is called while other operations are running
+ - workaround: let all other functions to complete execution before calling pipxi40_close
+ 
