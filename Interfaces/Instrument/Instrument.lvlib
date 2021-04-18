@@ -13,6 +13,8 @@
 		<Item Name="StateControl.lvclass" Type="LVClass" URL="../StateControl/StateControl.lvclass"/>
 		<Item Name="Timing.lvclass" Type="LVClass" URL="../Base/Timing/Timing.lvclass"/>
 		<Item Name="Trigger.lvclass" Type="LVClass" URL="../Base/Trigger/Trigger.lvclass"/>
+		<Item Name="SyncProvider.lvclass" Type="LVClass" URL="../SyncManager/SyncProvider.lvclass"/>
+		<Item Name="SyncClient.lvclass" Type="LVClass" URL="../SyncClient/SyncClient.lvclass"/>
 	</Item>
 	<Item Name="Amplifier.lvclass" Type="LVClass" URL="../Amplifier/Amplifier.lvclass"/>
 	<Item Name="Analog Input.lvclass" Type="LVClass" URL="../AnalogInput/Analog Input.lvclass"/>
