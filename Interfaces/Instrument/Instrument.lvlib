@@ -29,4 +29,5 @@
 	<Item Name="Reconfigurable IO.lvclass" Type="LVClass" URL="../RIO/Reconfigurable IO.lvclass"/>
 	<Item Name="Source Measure Unit.lvclass" Type="LVClass" URL="../SMU/Source Measure Unit.lvclass"/>
 	<Item Name="Switching.lvclass" Type="LVClass" URL="../Switching/Switching.lvclass"/>
+	<Item Name="Trigger Control.lvclass" Type="LVClass" URL="../Trigger Control/Trigger Control.lvclass"/>
 </Library>

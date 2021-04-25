@@ -11,4 +11,5 @@
 	<Item Name="NI DAQmx Base.lvclass" Type="LVClass" URL="../NI DAQmx Base/NI DAQmx Base.lvclass"/>
 	<Item Name="NI Digital Input.lvclass" Type="LVClass" URL="../NI Digital Input/NI Digital Input.lvclass"/>
 	<Item Name="NI Digital Output.lvclass" Type="LVClass" URL="../NI Digital Output/NI Digital Output.lvclass"/>
+	<Item Name="NI PXI Trigger.lvclass" Type="LVClass" URL="../NI PXI Trigger/NI PXI Trigger.lvclass"/>
 </Library>

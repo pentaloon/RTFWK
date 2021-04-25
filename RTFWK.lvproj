@@ -3395,6 +3395,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Channel gain.ctl" Type="VI" URL="../Realization/PI650 VoltageAmp/TypeDefs/Channel gain.ctl"/>
 		<Item Name="Multi-point settings.ctl" Type="VI" URL="../Realization/NI DMM/TypeDefs/Multi-point settings.ctl"/>
 		<Item Name="Trigger settings.ctl" Type="VI" URL="../Realization/NI DMM/TypeDefs/Trigger settings.ctl"/>
+		<Item Name="PXI Trigger config.ctl" Type="VI" URL="../Realization/NI PXI Trigger/PXI Trigger config.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="pipx40 Clear Card.vi" Type="VI" URL="/&lt;instrlib&gt;/Pipx40/Pipx40.llb/pipx40 Clear Card.vi"/>
