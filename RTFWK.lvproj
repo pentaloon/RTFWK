@@ -3383,21 +3383,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Dependencies" Type="Dependencies"/>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
-		<Item Name="Channel Config.ctl" Type="VI" URL="../Realization/NI DAQmx Base/TypeDefs/Channel Config.ctl"/>
-		<Item Name="Output Config.ctl" Type="VI" URL="../Realization/NI Analog Output/TypeDefs/Output Config.ctl"/>
-		<Item Name="Timing Config.ctl" Type="VI" URL="../Realization/NI Analog Output/TypeDefs/Timing Config.ctl"/>
-		<Item Name="Trigger Config.ctl" Type="VI" URL="../Realization/NI Analog Output/TypeDefs/Trigger Config.ctl"/>
-		<Item Name="Pulse output.ctl" Type="VI" URL="../Realization/NI Counter Output/TypeDefs/Pulse output.ctl"/>
-		<Item Name="Pulse input.ctl" Type="VI" URL="../Realization/NI Counter Input/TypeDefs/Pulse input.ctl"/>
-		<Item Name="Resistor channel.ctl" Type="VI" URL="../Realization/PIPX40 Resistor/TypeDefs/Resistor channel.ctl"/>
-		<Item Name="DMM waveform settings.ctl" Type="VI" URL="../Realization/NI DMM/TypeDefs/DMM waveform settings.ctl"/>
-		<Item Name="Channel DC offset.ctl" Type="VI" URL="../Realization/PI650 VoltageAmp/TypeDefs/Channel DC offset.ctl"/>
-		<Item Name="Channel gain.ctl" Type="VI" URL="../Realization/PI650 VoltageAmp/TypeDefs/Channel gain.ctl"/>
-		<Item Name="Multi-point settings.ctl" Type="VI" URL="../Realization/NI DMM/TypeDefs/Multi-point settings.ctl"/>
-		<Item Name="Trigger settings.ctl" Type="VI" URL="../Realization/NI DMM/TypeDefs/Trigger settings.ctl"/>
-		<Item Name="PXI Trigger config.ctl" Type="VI" URL="../Realization/NI PXI Trigger/PXI Trigger config.ctl"/>
-		<Item Name="DC voltage settings.ctl" Type="VI" URL="../Realization/NI SMU/TypeDefs/DC voltage settings.ctl"/>
-		<Item Name="DC current settings.ctl" Type="VI" URL="../Realization/NI SMU/TypeDefs/DC current settings.ctl"/>
+		<Item Name="JSON RPC Server (test).vi" Type="VI" URL="../JSON RPC Server (test).vi"/>
+		<Item Name="Controller.lvclass" Type="LVClass" URL="../Controller/Controller.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="pipx40 Clear Card.vi" Type="VI" URL="/&lt;instrlib&gt;/Pipx40/Pipx40.llb/pipx40 Clear Card.vi"/>
@@ -3493,6 +3480,7 @@ AddOutputFilter chunkFilter
 				<Item Name="niDCPower Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort.vi"/>
 				<Item Name="niDCPower Configure Current Level Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Level Range.vi"/>
 				<Item Name="niDCPower Measure Multiple.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Measure Multiple.vi"/>
+				<Item Name="niDCPower Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Reset.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -3797,7 +3785,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="Add Content Length.vi" Type="VI" URL="../support/Add Content Length.vi"/>
-			<Item Name="Controller.lvclass" Type="LVClass" URL="../Controller/Controller.lvclass"/>
 			<Item Name="Get Content Length.vi" Type="VI" URL="../support/Get Content Length.vi"/>
 			<Item Name="Identify Request.vi" Type="VI" URL="../support/Identify Request.vi"/>
 			<Item Name="JSON-RPC Lib.lvlib" Type="Library" URL="../Lib/JSON-RPC/JSON-RPC Lib.lvlib"/>
@@ -3835,6 +3822,20 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Channel Config.ctl" Type="VI" URL="../Realization/NI DAQmx Base/TypeDefs/Channel Config.ctl"/>
+			<Item Name="Timing Config.ctl" Type="VI" URL="../Realization/NI Analog Output/TypeDefs/Timing Config.ctl"/>
+			<Item Name="Trigger Config.ctl" Type="VI" URL="../Realization/NI Analog Output/TypeDefs/Trigger Config.ctl"/>
+			<Item Name="Pulse output.ctl" Type="VI" URL="../Realization/NI Counter Output/TypeDefs/Pulse output.ctl"/>
+			<Item Name="Pulse input.ctl" Type="VI" URL="../Realization/NI Counter Input/TypeDefs/Pulse input.ctl"/>
+			<Item Name="Resistor channel.ctl" Type="VI" URL="../Realization/PIPX40 Resistor/TypeDefs/Resistor channel.ctl"/>
+			<Item Name="DMM waveform settings.ctl" Type="VI" URL="../Realization/NI DMM/TypeDefs/DMM waveform settings.ctl"/>
+			<Item Name="Channel DC offset.ctl" Type="VI" URL="../Realization/PI650 VoltageAmp/TypeDefs/Channel DC offset.ctl"/>
+			<Item Name="Channel gain.ctl" Type="VI" URL="../Realization/PI650 VoltageAmp/TypeDefs/Channel gain.ctl"/>
+			<Item Name="Multi-point settings.ctl" Type="VI" URL="../Realization/NI DMM/TypeDefs/Multi-point settings.ctl"/>
+			<Item Name="Trigger settings.ctl" Type="VI" URL="../Realization/NI DMM/TypeDefs/Trigger settings.ctl"/>
+			<Item Name="PXI Trigger config.ctl" Type="VI" URL="../Realization/NI PXI Trigger/PXI Trigger config.ctl"/>
+			<Item Name="DC voltage settings.ctl" Type="VI" URL="../Realization/NI SMU/TypeDefs/DC voltage settings.ctl"/>
+			<Item Name="DC current settings.ctl" Type="VI" URL="../Realization/NI SMU/TypeDefs/DC current settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RTEngine" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

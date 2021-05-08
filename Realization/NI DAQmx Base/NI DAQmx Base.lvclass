@@ -37,7 +37,7 @@
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">DAQmx device</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">DAQmx device</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="Get DAQmx device.vi" Type="VI" URL="../Get DAQmx device.vi">
+			<Item Name="Read DAQmx device.vi" Type="VI" URL="../Properties/Read DAQmx device.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;H!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!.`````]!$#!!A!!!!!!"!!1!!!!"!!!!!!!!$%2"57VY)'2F&gt;GFD:1!!1%"Q!"Y!!#9/4EEA2%&amp;2&lt;8AO&lt;(:M;7)64EEA2%&amp;2&lt;8AA1G&amp;T:3ZM&gt;G.M98.T!!!/2%&amp;2&lt;8AA1G&amp;T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0E"Q!"Y!!#9/4EEA2%&amp;2&lt;8AO&lt;(:M;7)64EEA2%&amp;2&lt;8AA1G&amp;T:3ZM&gt;G.M98.T!!!.2%&amp;2&lt;8AA1G&amp;T:3"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
@@ -51,7 +51,7 @@
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">DAQmx task</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">DAQmx task</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="Get DAQmx task.vi" Type="VI" URL="../Get DAQmx task.vi">
+			<Item Name="Read DAQmx task.vi" Type="VI" URL="../Properties/Read DAQmx task.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'0!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Y!.`````]!#3!!A!!!!!!"!!1!!!!"!!!!!!!!!$:!=!!6"&amp;2B=WM!!!%!"16/352"53!!A!!!!!!"!!1!!!!"!!!!!!!!#E2"57VY)(2B=WM!!%"!=!!?!!!G$EZ*)%2"57VY,GRW&lt;'FC&amp;5Z*)%2"57VY)%*B=W5O&lt;(:D&lt;'&amp;T=Q!!$E2"57VY)%*B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$Z!=!!?!!!G$EZ*)%2"57VY,GRW&lt;'FC&amp;5Z*)%2"57VY)%*B=W5O&lt;(:D&lt;'&amp;T=Q!!$52"57VY)%*B=W5A;7Y!6!$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!%!!E#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!+!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
