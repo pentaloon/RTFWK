@@ -9,12 +9,12 @@
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
 	<Item Name="Configure Digital Start Trigger.vi" Type="VI" URL="../Configure Digital Start Trigger.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;B!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!Q%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&gt;2'FH;82B&lt;#"4&gt;'&amp;S&gt;#"5=GFH:W6S,GRW9WRB=X-!!"&amp;$&lt;WZG;7&gt;5=GFH:W6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!R!5Q:198*B&lt;8-!!%R!=!!?!!!Q%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&gt;2'FH;82B&lt;#"4&gt;'&amp;S&gt;#"5=GFH:W6S,GRW9WRB=X-!!""$&lt;WZG;7&gt;5=GFH:W6S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;2!=!!?!!!Q%%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)&gt;2'FH;82B&lt;#"4&gt;'&amp;S&gt;#"5=GFH:W6S,GRW9WRB=X-!!"F%;7&gt;J&gt;'&amp;M)&amp;.U98*U)&amp;2S;7&gt;H:8)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$%"4"F"B=G&amp;N=Q!!6%"Q!"Y!!$!137ZT&gt;(*V&lt;76O&gt;#ZM&gt;GRJ9BV%;7&gt;J&gt;'&amp;M)&amp;.U98*U)&amp;2S;7&gt;H:8)O&lt;(:D&lt;'&amp;T=Q!!'%2J:WFU97QA5X2B=H1A6(*J:W&gt;F=C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082393088</Property>
 	</Item>
 </LVClass>

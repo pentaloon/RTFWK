@@ -28,6 +28,26 @@
 	<Item Name="PI650 VoltageAmp.ctl" Type="Class Private Data" URL="PI650 VoltageAmp.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="Channel DC offset.ctl" Type="VI" URL="../TypeDefs/Channel DC offset.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#6!!!!!Q!41!=!$5.I97ZO:7QA+%.)-3E!%U!(!!R0:G:T:81A+$%S/#E!!'=!]1!!!!!!!!!$$V"J9WNF=GFO:SZM&gt;GRJ9BB1349V-#"7&lt;WRU97&gt;F17VQ,GRW9WRB=X-61WBB&lt;GZF&lt;#"%1S"P:G:T:81O9X2M!#"!5!!#!!!!!2&amp;$;'&amp;O&lt;G6M)%2$)'^G:H.F&gt;!!"!!)!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+		<Item Name="Channel gain.ctl" Type="VI" URL="../TypeDefs/Channel gain.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#)!!!!!Q!41!=!$5.I97ZO:7QA+%.)-3E!$U!(!!F(97FO)#BY-3E!8A$R!!!!!!!!!!-05'FD;W6S;7ZH,GRW&lt;'FC'&amp;"*.D5Q)&amp;:P&lt;(2B:W6"&lt;8!O&lt;(:D&lt;'&amp;T=R"$;'&amp;O&lt;G6M)'&gt;B;7YO9X2M!"R!5!!#!!!!!1R$;'&amp;O&lt;G6M)'&gt;B;7Y!!!%!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+	</Item>
 	<Item Name="Abort.vi" Type="VI" URL="../Abort.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;0!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!K$V"J9WNF=GFO:SZM&gt;GRJ9BB1349V-#"7&lt;WRU97&gt;F17VQ,GRW9WRB=X-!!"21349V-#"7&lt;WRU97&gt;F17VQ)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1")1(!!(A!!+A^1;7.L:8*J&lt;G=O&lt;(:M;7)95%EW.4!A6G^M&gt;'&amp;H:5&amp;N=#ZM&gt;G.M98.T!!!45%EW.4!A6G^M&gt;'&amp;H:5&amp;N=#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

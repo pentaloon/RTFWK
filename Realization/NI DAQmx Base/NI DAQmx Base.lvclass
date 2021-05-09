@@ -62,6 +62,17 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="Channel Config.ctl" Type="VI" URL="../TypeDefs/Channel Config.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$3!!!!"A!31$$`````#'.I97ZO:7RT!!!41!I!$7VB?'FN&gt;7UA&gt;G&amp;M&gt;75!%U!+!!VN;7ZJ&lt;86N)(:B&lt;(6F!#.!!Q!&gt;&lt;X6U=(6U)(2F=GVJ&lt;G&amp;M)'.P&lt;G:J:X6S982J&lt;WY!#U!$!!6V&lt;GFU=Q"E!0%!!!!!!!!!!QZ/33"%16&amp;N?#ZM&gt;GRJ9B6/33"%16&amp;N?#"#98.F,GRW9WRB=X-31WBB&lt;GZF&lt;#"$&lt;WZG;7=O9X2M!#2!5!!&amp;!!!!!1!#!!-!"!Z$;'&amp;O&lt;G6M)%.P&lt;G:J:Q!!!1!&amp;!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+	</Item>
 	<Item Name="Abort.vi" Type="VI" URL="../Abort.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%\!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!G$EZ*)%2"57VY,GRW&lt;'FC&amp;5Z*)%2"57VY)%*B=W5O&lt;(:D&lt;'&amp;T=Q!!$E2"57VY)%*B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$Z!=!!?!!!G$EZ*)%2"57VY,GRW&lt;'FC&amp;5Z*)%2"57VY)%*B=W5O&lt;(:D&lt;'&amp;T=Q!!$52"57VY)%*B=W5A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

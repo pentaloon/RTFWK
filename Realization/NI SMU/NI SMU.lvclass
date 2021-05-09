@@ -31,6 +31,26 @@
 	<Item Name="NI SMU.ctl" Type="Class Private Data" URL="NI SMU.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="DC current settings.ctl" Type="VI" URL="../TypeDefs/DC current settings.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$8!!!!"A!41!I!$7.V=H*F&lt;H1A&lt;'6W:7Q!%U!+!!VW&lt;WRU97&gt;F)'RJ&lt;7FU!"F!#A!49X6S=G6O&gt;#"M:8:F&lt;#"S97ZH:1!:1!I!%X:P&lt;(2B:W5A&lt;'FN;81A=G&amp;O:W5!%U!+!!RT&lt;X6S9W5A:'6M98E!!'1!]1!!!!!!!!!$$%Z*)&amp;..63ZM&gt;GRJ9AZ/33"4465O&lt;(:D&lt;'&amp;T=R&gt;%1S"D&gt;8*S:7ZU)(.F&gt;(2J&lt;G&gt;T,G.U&lt;!!I1&amp;!!"1!!!!%!!A!$!!142%-A9X6S=G6O&gt;#"T:82U;7ZH=Q!"!!5!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+		<Item Name="DC voltage settings.ctl" Type="VI" URL="../TypeDefs/DC voltage settings.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$8!!!!"A!41!I!$8:P&lt;(2B:W5A&lt;'6W:7Q!'5!+!".W&lt;WRU97&gt;F)'RF&gt;G6M)(*B&lt;G&gt;F!".!#A!.9X6S=G6O&gt;#"M;7VJ&gt;!!:1!I!%W.V=H*F&lt;H1A&lt;'FN;81A=G&amp;O:W5!%U!+!!RT&lt;X6S9W5A:'6M98E!!'1!]1!!!!!!!!!$$%Z*)&amp;..63ZM&gt;GRJ9AZ/33"4465O&lt;(:D&lt;'&amp;T=R&gt;%1S"W&lt;WRU97&gt;F)(.F&gt;(2J&lt;G&gt;T,G.U&lt;!!I1&amp;!!"1!!!!%!!A!$!!142%-A6G^M&gt;'&amp;H:3"T:82U;7ZH=Q!"!!5!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+	</Item>
 	<Item Name="Abort.vi" Type="VI" URL="../Abort.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%@!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!&gt;$%Z*)&amp;..63ZM&gt;GRJ9AZ/33"4465O&lt;(:D&lt;'&amp;T=Q!+4EEA5UV6)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!(1R/33"4465O&lt;(:M;7)/4EEA5UV6,GRW9WRB=X-!#5Z*)&amp;..63"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

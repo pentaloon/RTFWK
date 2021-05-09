@@ -30,4 +30,5 @@
 	<Item Name="Source Measure Unit.lvclass" Type="LVClass" URL="../SMU/Source Measure Unit.lvclass"/>
 	<Item Name="Switching.lvclass" Type="LVClass" URL="../Switching/Switching.lvclass"/>
 	<Item Name="Trigger Control.lvclass" Type="LVClass" URL="../Trigger Control/Trigger Control.lvclass"/>
+	<Item Name="Digital Start Trigger.lvclass" Type="LVClass" URL="../Base/Trigger/Digital Start Trigger.lvclass"/>
 </Library>

@@ -75,6 +75,35 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="Output Config.ctl" Type="VI" URL="../TypeDefs/Output Config.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#5!!!!"!!+1&amp;-%:'&amp;U91!!%%!B#G&amp;V&gt;']A=X2B=H1!!"*!)1RS:7&gt;F&lt;G6S982J&lt;WY!!'!!]1!!!!!!!!!$$EZ*)%2"57VY,GRW&lt;'FC'%Z*)%&amp;O97RP:S"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=R&amp;0&gt;82Q&gt;81A1W^O:GFH,G.U&lt;!!?1&amp;!!!Q!!!!%!!AV0&gt;82Q&gt;81A9W^O:GFH!!%!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+		<Item Name="Timing Config.ctl" Type="VI" URL="../TypeDefs/Timing Config.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$#!!!!"A!21!-!#X.B&lt;8"M:3"N&lt;W2F!"F!!Q!4=W&amp;N='RF=S"Q:8)A9WBB&lt;GZF&lt;!!,1!I!"(*B&gt;'5!!""!-0````]'=W^V=G.F!!!21!-!#W&amp;D&gt;'FW:3"F:'&gt;F!'1!]1!!!!!!!!!$$EZ*)%2"57VY,GRW&lt;'FC'%Z*)%&amp;O97RP:S"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=R&amp;5;7VJ&lt;G=A1W^O:GFH,G.U&lt;!!C1&amp;!!"1!!!!%!!A!$!!1.6'FN;7ZH)%.P&lt;G:J:Q!"!!5!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+		<Item Name="Trigger Config.ctl" Type="VI" URL="../TypeDefs/Trigger Config.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$#!!!!"A!71$$`````$(2S;7&gt;H:8)A&gt;(FQ:1!!%%!Q`````Q:T&lt;X6S9W5!!!N!!Q!&amp;=WRP='5!%U!+!!RB&lt;G&amp;M&lt;W=A&lt;'6W:7Q!!"&gt;!#A!297ZB&lt;'^H)'BZ=X2F=G6T;8-!8Q$R!!!!!!!!!!-/4EEA2%&amp;2&lt;8AO&lt;(:M;7)94EEA17ZB&lt;'^H)%^V&gt;("V&gt;#ZM&gt;G.M98.T%F2S;7&gt;H:8)A1W^O:GFH,G.U&lt;!!=1&amp;!!"1!!!!%!!A!$!!1(1WRV=X2F=A!"!!5!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+	</Item>
 	<Item Name="Create Voltage Output.vi" Type="VI" URL="../Create Voltage Output.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%B!=!!?!!!J$EZ*)%2"57VY,GRW&lt;'FC'%Z*)%&amp;O97RP:S"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!54EEA17ZB&lt;'^H)%^V&gt;("V&gt;#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$%"4"F"B=G&amp;N=Q!!2E"Q!"Y!!#E/4EEA2%&amp;2&lt;8AO&lt;(:M;7)94EEA17ZB&lt;'^H)%^V&gt;("V&gt;#ZM&gt;G.M98.T!"./33""&lt;G&amp;M&lt;W=A4X6U=(6U)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!#3!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
