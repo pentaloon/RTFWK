@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="varPersistentID:{94D2FBE4-40A1-4C99-BDB7-2845520D7636}" Type="Ref">/RT PXI Target/Variables.lvlib/DebugString</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -21,6 +22,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Debug from Host.vi" Type="VI" URL="../Temp/Debug from Host.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -3385,6 +3387,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="JSON RPC Server (test).vi" Type="VI" URL="../JSON RPC Server (test).vi"/>
 		<Item Name="Controller.lvclass" Type="LVClass" URL="../Controller/Controller.lvclass"/>
+		<Item Name="Variables.lvlib" Type="Library" URL="../Variables/Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="pipx40 Clear Card.vi" Type="VI" URL="/&lt;instrlib&gt;/Pipx40/Pipx40.llb/pipx40 Clear Card.vi"/>
@@ -3518,7 +3521,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
@@ -3788,10 +3790,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Get Content Length.vi" Type="VI" URL="../support/Get Content Length.vi"/>
 			<Item Name="Identify Request.vi" Type="VI" URL="../support/Identify Request.vi"/>
 			<Item Name="JSON-RPC Lib.lvlib" Type="Library" URL="../Lib/JSON-RPC/JSON-RPC Lib.lvlib"/>
-			<Item Name="Log entry.ctl" Type="VI" URL="../controls/Log entry.ctl"/>
-			<Item Name="Logging.lvclass" Type="LVClass" URL="../Logging/Logging.lvclass"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Module Launch Data.ctl" Type="VI" URL="../controls/Module Launch Data.ctl"/>
 			<Item Name="Module response.ctl" Type="VI" URL="../controls/Module response.ctl"/>
 			<Item Name="pipx40_32.dll" Type="Document" URL="pipx40_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -3838,7 +3837,7 @@ AddOutputFilter chunkFilter
 			<Item Name="DC current settings.ctl" Type="VI" URL="../Realization/NI SMU/TypeDefs/DC current settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="RTEngine" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+			<Item Name="RpcServer" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{796DACFB-944D-43A4-B01A-FB80DD42470A}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{BCADF077-A8EC-43FE-9D4B-E08A1CC2F0F4}</Property>
@@ -3846,16 +3845,16 @@ AddOutputFilter chunkFilter
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FF7594E6-CD98-440D-A364-C42A9A9948EA}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">RTEngine</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RpcServer</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/RTEngine</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/RpcServer</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{297B3648-53FA-4B58-BB9A-B64F42D740E4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -3866,7 +3865,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6E823B7E-7328-41A7-B61B-9FEA2B6D32FE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FB3F48D-C0D9-4348-B2FA-2D9E18F30122}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Module.lvclass</Property>
@@ -3878,10 +3877,10 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">KUKA Hungary Kft.</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">RTEngine</Property>
-				<Property Name="TgtF_internalName" Type="Str">RTEngine</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">RpcServer</Property>
+				<Property Name="TgtF_internalName" Type="Str">RpcServer</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 KUKA Hungary Kft.</Property>
-				<Property Name="TgtF_productName" Type="Str">RTEngine</Property>
+				<Property Name="TgtF_productName" Type="Str">RpcServer</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C4D97490-E7E2-4A72-A785-01F0BDA9BA11}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
