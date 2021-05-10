@@ -2,7 +2,7 @@
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{94D2FBE4-40A1-4C99-BDB7-2845520D7636}" Type="Ref">/RT PXI Target/Variables/Variables.lvlib/DebugString</Property>
+	<Property Name="varPersistentID:{116EAF90-61FD-485D-ACF1-F93BAC786DB1}" Type="Ref">/RT PXI Target/Variables/Variables.lvlib/Debug</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -121,8 +121,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Demo.lvlib" Type="Library" URL="../Realization/Demo.lvlib"/>
 			<Item Name="Module.lvlib" Type="Library" URL="../Realization/Module.lvlib"/>
 		</Item>
-		<Item Name="Variables" Type="Folder" URL="../Variables">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Variables" Type="Folder">
+			<Item Name="Variables.lvlib" Type="Library" URL="../Variables/Variables.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder" URL="../Tests">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -3750,7 +3750,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{297B3648-53FA-4B58-BB9A-B64F42D740E4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -3761,7 +3761,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B550885F-5A98-4A51-A1F0-F391D50A1C87}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{00F60127-F538-4572-920E-BBACF30B371F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Realization/Module.lvlib/Module.lvclass</Property>
@@ -3780,7 +3780,12 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target/Variables/Variables.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">KUKA Hungary Kft.</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">RpcServer</Property>
 				<Property Name="TgtF_internalName" Type="Str">RpcServer</Property>
